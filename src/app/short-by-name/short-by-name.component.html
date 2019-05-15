@@ -1,0 +1,28 @@
+<mat-grid-list cols="2" rowHeight="2:1">
+    <mat-grid-tile>
+        <mat-card>
+          <h2>Unsorted name list</h2>
+          <br />
+        <table>
+            <tr *ngFor="let data of dataModel">
+               {{data}}
+            </tr>
+          </table>
+        </mat-card>
+    </mat-grid-tile>
+    <mat-grid-tile>
+        <mat-card>
+            <h2>Sorted name list</h2>
+            <br />
+        <table>
+            <tr *ngFor="let result of dataModelResult">
+               {{result}}
+            </tr>
+          </table>
+          </mat-card>
+    </mat-grid-tile>
+  </mat-grid-list>
+  
+  
+  
+  

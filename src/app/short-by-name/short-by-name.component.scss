@@ -1,0 +1,38 @@
+.column {
+    width: 100%;
+    padding: 10px;
+    height: 300px;
+    margin-top: 50px;
+    /* Should be removed. Only for demonstration */
+  }
+  h2 {
+    margin: 3em 0 0 0;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .card-timeline{
+    width: 100%;
+    background-color: grey;
+    padding: 40px 40px 40px 40px;
+  }
+  mat-grid-tile {
+    background: lightblue;
+  }
+  .card-in{
+    width: 100%;
+    background-color: grey;
+    padding: 20px 20px 20px 20px;
+    height: 200px;
+    padding: 20px;
+  }
+
+  /* Structure */
+table {
+    width: 100%;
+  }
+  
+  .mat-form-field {
+    font-size: 14px;
+    width: 100%;
+  }
